@@ -1,25 +1,29 @@
 # Proxy LLM Chat
 
-An Android chat client for OpenAI-compatible proxy endpoints.
+Android chat client for OpenAI-compatible proxy endpoints.
 
-## Overview
+## What it is
 
-Proxy LLM Chat is a phone-first Android app for talking to OpenAI-compatible proxy models locally on your device. It is designed for simple setup, model switching, and direct chat use on mobile.
+Proxy LLM Chat is a phone-first Android app for talking to OpenAI-compatible API endpoints from your own device. It is designed for fast setup, model switching, image input, and local chat history.
 
-## Features
+## Highlights
 
 - Android phone UI
-- Local Base URL and API Key configuration
-- Model detection and switching
-- Stop generation while a reply is being generated
+- OpenAI-compatible base URL and API key settings
+- Model detection and model switching
+- Stop generation while a reply is running
 - Image input support
 - Deep thinking toggle
 - Local session history
 
+## Keywords
+
+android, kotlin, jetpack compose, openai compatible, proxy api, llm chat, mobile chat app, model switcher, image chat, local history
+
 ## Privacy
 
 - API keys are stored locally on the device.
-- Chat data is only sent to the endpoint you configure.
+- Chat data is sent only to the endpoint you configure.
 - The app does not upload data to its own server.
 
 ## License
